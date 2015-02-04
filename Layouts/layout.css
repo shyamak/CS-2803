@@ -1,0 +1,112 @@
+*{
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font-family: arial;
+}
+
+#logo {
+	float: left;
+	height: 3vh;
+	width: 20vw;
+	background: black;
+	margin-left: 3vw;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+}
+
+#logoPic {
+	float: right;
+	height: 9vh;
+	width: 5vw;
+	margin: 3vh 3vw 3vh 0;
+	background: black;
+}
+
+#menu {
+	clear: left;
+	height: 3vh;
+	width: 40vw;
+	/*background: black;*/
+	margin-left: 3vw;
+	margin-bottom: 3vh;
+}
+
+.menuItem {
+	float: left;
+	width: 8.5vw;
+	height: 3vh;
+	background: black;
+	list-style-type: none;
+}
+
+#menuList :not(:last-child){
+	margin-right: 2vw;
+}
+
+#menuList :last-child {
+	margin-right: 0;
+}
+
+#text {
+	float: left;
+	height: 10vh;
+	width: 30vw;
+	margin: 3vh 5vw 3vh 3vw;
+	/*background: black;*/
+}
+
+#text h1 {
+	margin-top: 5vh;
+	margin-bottom: 0.5em;
+	font-size: 3em;
+	background: gray;
+}
+
+#text p{
+	line-height: 1.5em;
+}
+
+#main {
+	clear: right;
+	height: 50vh;
+	width: 94vw;
+	margin: 0 3vw 3vh 3vw;
+	background: black;
+}
+
+.box {
+	background: black;
+	margin-bottom: 5vh;
+}
+
+#box1 {
+	float: left;
+	height: 20vh;
+	margin-left: 3vw;
+	width: 22.75vw;
+}
+
+#box2, #box3, #box4 {
+	float: left;
+	height: 20vh;
+	width: 22.75vw;
+	margin-left: 1vw;
+}
+
+#pic {
+	float: left;
+	width: 30vw;
+	height: 60vh;
+	background: black;
+	margin-left: 3vw;
+	border-radius: 17.5vw;
+}
+
+#footer {
+	clear: left;
+	background: black;
+	/*margin-top: 3vh;*/
+	width: 100vw;
+	height: 7vh;
+}
